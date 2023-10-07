@@ -11,7 +11,7 @@ import 'swiper/css/effect-coverflow';
 
 const Slider = () => {
    return (
-      <div className='mt-36 px-4 mb-24'>
+      <div className='mt-36 px-4'>
          <h1 className="text-4xl text-center mb-16 font-bold">Doctor's Gallery</h1>
          <Swiper
             spaceBetween={10}
