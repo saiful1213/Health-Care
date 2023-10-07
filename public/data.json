@@ -4,41 +4,41 @@
       "service_name": "Pediatric Care",
       "img": "https://i.ibb.co/9ZmzTQJ/national-cancer-institute-L8t-WZT4-Cc-VQ-unsplash.jpg",
       "service_charge": "$70",
-      "description": "Specialized medical care for infants, children, and adolescents, ensuring their health and well-being through regular checkups and vaccinations."
+      "description": "Specialized medical care for infants, children, and adolescents, ensuring their health and well-being through regular checkups and vaccinations. Tailored rehabilitation programs for patients recovering from surgery, injury, or illness, utilizing therapies and exercises to regain strength, mobility, and independence. Professional healthcare services provided in the comfort of patients' homes, encompassing medical assistance, nursing care, therapy, and emotional support for individuals recovering from illness or surgery. Personalized guidance from nutrition experts to promote healthy eating habits, manage weight, and address dietary concerns."
    },
    {
       "id": "2",
       "service_name": "Nutritional Counseling",
       "img": "https://i.ibb.co/BBPqXcH/care.jpg",
       "service_charge": "$55 per session",
-      "description": "Personalized guidance from nutrition experts to promote healthy eating habits, manage weight, and address dietary concerns."
+      "description": "Personalized guidance from nutrition experts to promote healthy eating habits, manage weight, and address dietary concerns. Tailored rehabilitation programs for patients recovering from surgery, injury, or illness, utilizing therapies and exercises to regain strength, mobility, and independence. Professional healthcare services provided in the comfort of patients' homes, encompassing medical assistance, nursing care, therapy, and emotional support for individuals recovering from illness or surgery. Specialized medical care for infants, children, and adolescents, ensuring their health and well-being through regular checkups and vaccinations."
    },
    {
       "id": "3",
       "service_name": "Chronic Disease",
       "img": "https://i.ibb.co/0QXY2vx/Chronic-Disease.jpg",
       "service_charge": "Varies",
-      "description": "Comprehensive care and support for individuals with chronic conditions such as diabetes, hypertension, and asthma, focusing on disease control and improving quality of life."
+      "description": "Specialized medical care for infants, children, and adolescents, ensuring their health and well-being through regular checkups and vaccinations. Tailored rehabilitation programs for patients recovering from surgery, injury, or illness, utilizing therapies and exercises to regain strength, mobility, and independence. Professional healthcare services provided in the comfort of patients' homes, encompassing medical assistance, nursing care, therapy, and emotional support for individuals recovering from illness or surgery. Comprehensive care and support for individuals with chronic conditions such as diabetes, hypertension, and asthma, focusing on disease control and improving quality of life."
    },
    {
       "id": "4",
       "service_name": "Rehabilitation Services",
       "img": "https://i.ibb.co/m40xgsK/rehabilitation.jpg",
       "service_charge": "Customized",
-      "description": "Tailored rehabilitation programs for patients recovering from surgery, injury, or illness, utilizing therapies and exercises to regain strength, mobility, and independence."
+      "description": "Tailored rehabilitation programs for patients recovering from surgery, injury, or illness, utilizing therapies and exercises to regain strength, mobility, and independence. Tailored rehabilitation programs for patients recovering from surgery, injury, or illness, utilizing therapies and exercises to regain strength, mobility, and independence. Professional healthcare services provided in the comfort of patients' homes, encompassing medical assistance, nursing care, therapy, and emotional support for individuals recovering from illness or surgery. Comprehensive care and support for individuals with chronic conditions such as diabetes, hypertension, and asthma, focusing on disease control and improving quality of life."
    },
    {
       "id": "5",
       "service_name": "Diagnostic Imaging",
       "img": "https://i.ibb.co/cTF2Q8j/national-cancer-institute-NFvd-KIhx-Yl-U-unsplash.jpg",
       "service_charge": "Varies by procedure",
-      "description": "Advanced imaging techniques including X-rays, MRI, and CT scans to diagnose and monitor medical conditions, providing accurate and timely results for informed healthcare decisions."
+      "description": "Advanced imaging techniques including X-rays, MRI, and CT scans to diagnose and monitor medical conditions, providing accurate and timely results for informed healthcare decisions.Tailored rehabilitation programs for patients recovering from surgery, injury, or illness, utilizing therapies and exercises to regain strength, mobility, and independence. Professional healthcare services provided in the comfort of patients' homes, encompassing medical assistance, nursing care, therapy, and emotional support for individuals recovering from illness or surgery. Tailored rehabilitation programs for patients recovering from surgery, injury, or illness, utilizing therapies and exercises to regain strength, mobility, and independence."
    },
    {
       "id": "6",
       "service_name": "Home Health Care",
       "img": "https://i.ibb.co/xLTYRFH/homecare.jpg",
       "service_charge": "Varies by services",
-      "description": "Professional healthcare services provided in the comfort of patients' homes, encompassing medical assistance, nursing care, therapy, and emotional support for individuals recovering from illness or surgery."
+      "description": "Tailored rehabilitation programs for patients recovering from surgery, injury, or illness, utilizing therapies and exercises to regain strength, mobility, and independence. Professional healthcare services provided in the comfort of patients' homes, encompassing medical assistance, nursing care, therapy, and emotional support for individuals recovering from illness or surgery. Tailored rehabilitation programs for patients recovering from surgery, injury, or illness, utilizing therapies and exercises to regain strength, mobility, and independence. Professional healthcare services provided in the comfort of patients' homes, encompassing medical assistance, nursing care, therapy, and emotional support for individuals recovering from illness or surgery."
    }
 ]

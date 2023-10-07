@@ -1,28 +1,46 @@
 import { Link, NavLink } from "react-router-dom";
 import { FiMenu } from "react-icons/fi";
+import { useContext } from "react";
+import { AuthContext } from "../../Providers/AuthProviders";
+import { toast } from "react-toastify";
+
+
 
 const Navbar = () => {
+   const { user, logOut } = useContext(AuthContext);
+
+
+   const handleLogOut = () => {
+      logOut()
+         .then(() => {
+            toast.success('Sign-out successful')
+         })
+         .catch(() => {
+            toast.error('an error occoured')
+         })
+   }
 
    const navlinks = <>
-      <li className="font-medium">
+
+      <li className="font-medium hover:text-heading">
          <NavLink to="/" className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "bg-heading text-white hover:text-title" : ""
-         }>Home</NavLink>
+            isPending ? "pending" : isActive ? "bg-heading text-white hover:text-heading" : ""
+         }><button className="font-medium hover:text-heading">Home</button></NavLink>
       </li>
-      <li className="font-medium">
-         <NavLink to="/services" className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "bg-heading text-white hover:text-title" : ""
-         }>Service Details</NavLink>
+      <li className="font-medium hover:text-heading">
+         <NavLink to="/services/:id" className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "bg-heading text-white hover:text-heading" : ""
+         }><button className="font-medium hover:text-heading">Service Details</button></NavLink>
       </li>
-      <li className="font-medium">
+      <li className="font-medium hover:text-heading">
          <NavLink to="/doctors" className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "bg-heading text-white hover:text-title" : ""
-         }>Doctors</NavLink>
+         }><button className="font-medium hover:text-heading">Doctors</button></NavLink>
       </li>
-      <li className="font-medium">
+      <li className="font-medium hover:text-heading">
          <NavLink to="/blog" className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "bg-heading text-white hover:text-title" : ""
-         }>Blog</NavLink>
+         }><button className="font-medium hover:text-heading">Blog</button></NavLink>
       </li>
    </>
 
@@ -46,7 +64,25 @@ const Navbar = () => {
                </ul>
             </div>
             <div className="navbar-end">
-               <a className="btn bg-heading text-white capitalize">Login</a>
+               {
+                  user ?
+                     <details className="dropdown dropdown-end">
+                        <summary className="list-none">
+                           <div className="avatar">
+                              <div className="w-12 rounded-full">
+                                 <img src={user?.photoURL || `https://i.ibb.co/QCFzwjZ/bcg.jpg`} /> 
+                              </div>
+                           </div>
+                        </summary>
+                        <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+                           <li><h3 className="text-xl font-bold">{user?.displayName || 'User Name'}</h3></li>
+                           <li><button className="btn btn-primary capitalize py-4" onClick={handleLogOut}>Logout</button></li>
+                        </ul>
+                     </details>
+
+                     : <Link to="/login" className="btn bg-heading text-white capitalize">Login</Link>
+               }
+
             </div>
          </div>
       </div>

@@ -9,7 +9,6 @@ export default {
       colors: {
         'heading': '#4169E1',
         'title': '#0000CD',
-        'desc': '#1E90FF'
       },
       fontFamily: {
         'roboto': "'Roboto', sans-serif"
