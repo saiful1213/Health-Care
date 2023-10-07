@@ -2,6 +2,7 @@
 
 import Banner from "../../Component/Banner/Banner";
 import Services from "../../Component/Services/Services";
+import Slider from "../../Component/Slider/Slider";
 import Solution from "../../Component/Solution/Solution";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
          <Banner></Banner>
          <Services></Services>
          <Solution></Solution>
+         <Slider></Slider>
       </div>
    );
 };
