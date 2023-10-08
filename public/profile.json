@@ -1,0 +1,85 @@
+[
+   {
+      "id": 1,
+      "image": "https://i.ibb.co/MSGYMT5/austin-distel-7b-Mdi-Iqz-J4-unsplash.jpg",
+      "name": "Dr. Emily Johnson",
+      "specialty": "Cardiology",
+      "education": "MD, Cardiology, University of Medical Sciences",
+      "experience": "10+ years",
+      "contact_details": {
+         "email": "emily.johnson@example.com",
+         "phone": "+1 (555) 123-4567",
+         "address": "123 Main Street, Cityville, State, 12345"
+      }
+   },
+   
+   {
+      "id": 2,
+      "image": "https://i.ibb.co/JHt7QsJ/sander-sammy-38-Un6-Oi5be-E-unsplash.jpg",
+      "name": "Dr. Michael Lee",
+      "specialty": "Pediatrics",
+      "education": "MD, Pediatrics, City Medical College",
+      "experience": "8+ years",
+      "contact_details": {
+         "email": "michael.lee@example.com",
+         "phone": "+1 (555) 234-5678",
+         "address": "456 Elm Street, Townsville, State, 67890"
+      }
+   },
+   
+   {
+      "id": 3,
+      "image": "https://i.ibb.co/9ZmzTQJ/national-cancer-institute-L8t-WZT4-Cc-VQ-unsplash.jpg",
+      "name": "Dr. Sarah Clark",
+      "specialty": "Oncology",
+      "education": "MD, Oncology, Metropolitan Medical University",
+      "experience": "12+ years",
+      "contact_details": {
+         "email": "sarah.clark@example.com",
+         "phone": "+1 (555) 345-6789",
+         "address": "789 Oak Street, Villagetown, State, 56789"
+      }
+   },
+   
+   {
+      "id": 4,
+      "image": "https://i.ibb.co/k5RfW9w/humberto-chavez-FVh-yq-LR9e-A-unsplash.jpg",
+      "name": "Dr. David Anderson",
+      "specialty": "Neurology",
+      "education": "MD, Neurology, State University Medical School",
+      "experience": "15+ years",
+      "contact_details": {
+         "email": "david.anderson@example.com",
+         "phone": "+1 (555) 456-7890",
+         "address": "101 Pine Street, Hamletville, State, 34567"
+      }
+   },
+   
+   {
+      "id": 5,
+      "image": "https://i.ibb.co/VjkHWg5/usman-yousaf-PVjf-Lss3b-c-unsplash.jpg",
+      "name": "Dr. Jessica Smith",
+      "specialty": "Dermatology",
+      "education": "MD, Dermatology, National Medical College",
+      "experience": "9+ years",
+      "contact_details": {
+         "email": "jessica.smith@example.com",
+         "phone": "+1 (555) 567-8901",
+         "address": "202 Maple Street, Countryside, State, 45678"
+      }
+   },
+   
+   {
+      "id": 6,
+      "image": "https://i.ibb.co/Nr8b51S/patty-brito-Y-3-Dt0us7e0-unsplash.jpg",
+      "name": "Dr. Brian Taylor",
+      "specialty": "Orthopedics",
+      "education": "MD, Orthopedics, County Medical School",
+      "experience": "11+ years",
+      "contact_details": {
+         "email": "brian.taylor@example.com",
+         "phone": "+1 (555) 678-9012",
+         "address": "303 Cedar Street, Riverside, State, 56789"
+      }
+   }
+]
