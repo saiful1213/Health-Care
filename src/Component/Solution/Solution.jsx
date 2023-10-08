@@ -12,7 +12,7 @@ const Solution = () => {
          easing: 'ease-in-out',
          once: false,
          mirror: false,
-         offset: 310,
+         offset: 320,
       });
    }, []);
 

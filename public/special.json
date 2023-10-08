@@ -1,0 +1,26 @@
+[
+   {
+      "id": 1,
+      "img": "https://i.ibb.co/ngyGzgC/icons8-ambulance-car-48.png",
+      "title": "Fastest Ambulance",
+      "description": "Our cardiology specialists provide expert care for your heart, ensuring optimal cardiovascular health and well-being."
+   },
+   {
+      "id": 2,
+      "img": "https://i.ibb.co/hfx7w0T/icons8-scissors-48.png",
+      "title": "Newest Equipment",
+      "description": "From joint replacements to sports injuries, our orthopedic specialists offer advanced treatments for bone and joint conditions."
+   },
+   {
+      "id": 3,
+      "img": "https://i.ibb.co/SXGmpTJ/icons8-doctor-48.png",
+      "title": "Proffessional Doctors",
+      "description": "Experience personalized skincare with our dermatology experts, addressing various skin conditions and enhancing your skin's health."
+   },
+   {
+      "id": 4,
+      "img": "https://i.ibb.co/9Z9w3c3/icons8-medical-bag-48.png",
+      "title": "Best Service",
+      "description": "Our neurology specialists provide comprehensive care for neurological disorders, ensuring accurate diagnosis and effective treatment options."
+   }
+]

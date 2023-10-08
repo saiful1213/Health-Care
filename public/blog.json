@@ -1,0 +1,38 @@
+[
+   {
+      "id": 1,
+      "img": "https://i.ibb.co/9ZmzTQJ/national-cancer-institute-L8t-WZT4-Cc-VQ-unsplash.jpg",
+      "title": "Understanding Common Cold Symptoms",
+      "description": "Learn about the symptoms, causes, and treatments for the common cold, a prevalent viral infection affecting millions every year."
+   },
+   {
+      "id": 2,
+      "img": "https://i.ibb.co/0QXY2vx/Chronic-Disease.jpg",
+      "title": "The Importance of Regular Exercise for Heart Health",
+      "description": "Discover the connection between physical activity and heart health, and find out how regular exercise can significantly reduce the risk of heart diseases."
+   },
+   {
+      "id": 3,
+      "img": "https://i.ibb.co/cTF2Q8j/national-cancer-institute-NFvd-KIhx-Yl-U-unsplash.jpg",
+      "title": "Managing Stress and Mental Health",
+      "description": "Explore effective strategies for managing stress and maintaining good mental health. Learn about relaxation techniques, mindfulness, and seeking professional help when needed."
+   },
+   {
+      "id": 4,
+      "img": "https://i.ibb.co/k5RfW9w/humberto-chavez-FVh-yq-LR9e-A-unsplash.jpg",
+      "title": "Healthy Eating Habits for a Balanced Diet",
+      "description": "Get tips on creating a well-balanced diet that promotes overall health and well-being. Learn about the importance of various nutrients and how to incorporate them into your meals."
+   },
+   {
+      "id": 5,
+      "img": "https://i.ibb.co/VjkHWg5/usman-yousaf-PVjf-Lss3b-c-unsplash.jpg",
+      "title": "Caring for Your Skin: Tips for a Radiant Complexion",
+      "description": "Discover skincare routines and tips to maintain healthy and radiant skin. Learn about proper cleansing, moisturizing, and protection from environmental factors."
+   },
+   {
+      "id": 6,
+      "img": "https://i.ibb.co/Nr8b51S/patty-brito-Y-3-Dt0us7e0-unsplash.jpg",
+      "title": "Common Vaccines: What You Need to Know",
+      "description": "Explore the importance of vaccinations and learn about common vaccines recommended for different age groups. Understand the benefits of immunization in preventing serious diseases."
+   }
+]
