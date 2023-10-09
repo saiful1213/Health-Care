@@ -38,7 +38,7 @@ const Login = () => {
    return (
       <div className="h-screen">
          <Helmet>
-            <title>Health Care || Login</title>
+            <title>Health Care- Login</title>
          </Helmet>
          <div className="hero  bg-base-200 pb-24">
             <div className="hero-content flex-col mt-24 w-1/2 mx-auto">

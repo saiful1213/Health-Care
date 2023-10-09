@@ -8,7 +8,7 @@ const ServiceDetails = () => {
    return (
       <div className="mt-36 px-4 min-h-[20vh]">
          <Helmet>
-            <title>Health Care || Service Details</title>
+            <title>Health Care- Service Details</title>
          </Helmet>
          {
             selectedCard ? <div>

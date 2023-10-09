@@ -42,6 +42,13 @@ const Navbar = () => {
             isPending ? "pending" : isActive ? "bg-heading text-white hover:text-title" : ""
          }><button className="font-medium hover:text-heading">Blog</button></NavLink>
       </li>
+      {
+         user && <li className="font-medium hover:text-heading">
+            <NavLink to="/contact" className={({ isActive, isPending }) =>
+               isPending ? "pending" : isActive ? "bg-heading text-white hover:text-title" : ""
+            }><button className="font-medium hover:text-heading">Contact</button></NavLink>
+         </li>
+      }
    </>
 
    return (
@@ -70,7 +77,7 @@ const Navbar = () => {
                         <summary className="list-none">
                            <div className="avatar">
                               <div className="w-12 rounded-full">
-                                 <img src={user?.photoURL || `https://i.ibb.co/QCFzwjZ/bcg.jpg`} /> 
+                                 <img src={user?.photoURL || `https://i.ibb.co/QCFzwjZ/bcg.jpg`} />
                               </div>
                            </div>
                         </summary>

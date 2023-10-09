@@ -11,7 +11,7 @@ const Doctors = () => {
    return (
       <div className="mt-36 px-4">
          <Helmet>
-            <title>Health Care || Doctors</title>
+            <title>Health Care- Doctors</title>
          </Helmet>
 
          <h1 className="text-4xl text-center mb-4 font-bold">Meet Our Doctors</h1>

@@ -8,6 +8,7 @@ import Register from "../Pages/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import Blog from "../Pages/Blog/Blog";
 import Doctors from "../Pages/Doctors/Doctors";
+import Contact from "../Pages/Contact/Contact";
 
 
 
@@ -43,6 +44,10 @@ const Routes = createBrowserRouter([
             path: '/blog',
             element: <PrivateRoute><Blog></Blog></PrivateRoute>,
             loader: ()=> fetch('/blog.json')
+         },
+         {
+            path: '/contact',
+            element: <PrivateRoute><Contact></Contact></PrivateRoute>
          }
       ]
    }
