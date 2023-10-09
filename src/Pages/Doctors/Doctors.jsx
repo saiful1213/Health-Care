@@ -4,11 +4,12 @@ import Profile from "../../Component/Profile/Profile";
 import Appointment from "../../Component/Appointment/Appointment";
 import Speciality from "../../Component/Speciality/Speciality";
 import Registration from "../../Component/Registration/Registration";
+import Technology from "../../Component/Technology/Technology";
 
 const Doctors = () => {
    const profile = useLoaderData();
    return (
-      <div className="mt-28 px-4">
+      <div className="mt-36 px-4">
          <Helmet>
             <title>Health Care || Doctors</title>
          </Helmet>
@@ -24,6 +25,7 @@ const Doctors = () => {
          <Appointment></Appointment>
          <Speciality></Speciality>
          <Registration></Registration>
+         <Technology></Technology>
       </div>
    );
 };

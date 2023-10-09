@@ -1,7 +1,7 @@
 
 const Accordian = () => {
    return (
-      <div className="mt-28">
+      <div className="mt-36">
          <h1 className="text-4xl text-center mb-4 font-bold">Frequently Asked Questions</h1>
          <p className="md:w-3/5 md:text-center mx-auto">Discover the connection between physical activity and heart health, and find out how regular exercise can significantly reduce the risk of heart diseases.</p>
          <div className="collapse collapse-plus bg-base-200 mt-12">

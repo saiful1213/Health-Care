@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router-dom";
 import ShowBlog from "../../Component/ShowBlog/ShowBlog";
 import Testimonial from "../../Component/Testimonial/Testimonial";
 import Accordian from "../../Component/Accordian/Accordian";
+import BlogPost from "../../Component/BlogPost/BlogPost";
 
 const Blog = () => {
    const blogData = useLoaderData();
@@ -19,6 +20,7 @@ const Blog = () => {
             }
          </div>
          <Testimonial></Testimonial>
+         <BlogPost></BlogPost>
          <Accordian></Accordian>
       </div>
    );
