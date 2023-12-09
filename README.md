@@ -1,6 +1,7 @@
 # Health-Care
-## https://health-care-5a386.web.app
-
+## Technology: React, tailwind css, express js, MongoDB
+### https://health-care-5a386.web.app
+## Project Features
 - In Health-Care you will find our best certified doctor.
 - In this website you will see various types of services. And also see service details
 - In Doctor Route you will find special doctor. Also there are mention Registration process of appointment
@@ -18,24 +19,24 @@
 
 ```javascript
 let greeting;
-greetign = {};
+greeting = {};
 console.log(greetign);
 ```
 
 - A: `{}`
-- B: `ReferenceError: greetign is not defined`
+- B: `ReferenceError: greetings is not defined`
 - C: `undefined`
 
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: (B).ReferenceError: greetign is not defined 
+#### Answer: (B).ReferenceError: greeting is not defined 
 
-   here the variable name is greeting. But in console.log is greetign which is not defined. So, the answer will be 'RefferenceError: greetign is not defined' 
+   here the variable name is greeting. But in console.log is greeting which is not defined. So, the answer will be 'RefferenceError: greeting is not defined' 
 </p>
 </details>
 
-###### 2. Write the `correct answer` from the following options and give an explanation (2-5 lines).
+###### 2. Write the `correct answer` from the following options and explain (2-5 lines).
 
 ```javascript
 function sum(a, b) {
@@ -55,7 +56,7 @@ sum(1, "2");
 
 #### (C). "12" 
 
-   right answer is string 12. because of string concatination. data type of "a" is number but "b" is string. that's why the answer will be "12".
+   the right answer is string 12. because of string concatenation. the data type of "a" is a number but "b" is a string. that's why the answer will be "12".
 </p>
 </details>
 
